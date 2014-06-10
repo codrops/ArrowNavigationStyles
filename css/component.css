@@ -935,6 +935,7 @@ nav a svg {
 	transition: transform 0.3s;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
+	outline: 1px solid transparent; /* for FF */
 }
 
 .nav-fillpath .icon-wrap::before,
